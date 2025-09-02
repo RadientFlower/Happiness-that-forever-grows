@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #444;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+    .product button {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background: #555;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Shop</h1>
+    <p>Your tagline here</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Welcome to my shop! I sell awesome products that you’ll love. Browse below and feel free to contact me with questions.</p>
+  </section>
+
+  <section id="products">
+    <h2>Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$10.00</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>$15.00</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>$20.00</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Follow us on social media!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+✅ How to use it:
+
+1. Copy the code above into a text editor (like Notepad or VS Code).
+
+
+2. Save it as index.html.
+
+
+3. Open the file in your browser — boom, your website works locally!
+
+
+4. To make it live online for free:
+
+Create a free GitHub account.
+
+Upload the file to a new repository.
+
+Enable GitHub Pages in repo settings.
+
+Your site will be live at https://yourusername.github.io/reponame/.
+
+
+
+
+
+---
+
+👉 Do you want me to also guide you step-by-step on publishing this site to GitHub Pages so it’s live online?
+
