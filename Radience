@@ -130,33 +130,3 @@
   </footer>
 </body>
 </html>
-
-✅ How to use it:
-
-1. Copy the code above into a text editor (like Notepad or VS Code).
-
-
-2. Save it as index.html.
-
-
-3. Open the file in your browser — boom, your website works locally!
-
-
-4. To make it live online for free:
-
-Create a free GitHub account.
-
-Upload the file to a new repository.
-
-Enable GitHub Pages in repo settings.
-
-Your site will be live at https://yourusername.github.io/reponame/.
-
-
-
-
-
----
-
-👉 Do you want me to also guide you step-by-step on publishing this site to GitHub Pages so it’s live online?
-
